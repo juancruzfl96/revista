@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: url(https://scontent.fsfn4-1.fna.fbcdn.net/v/t1.0-9/13906794_1124928630901908_6549705020889010869_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=rMDf51TZuGIAX_u6iLb&_nc_ht=scontent.fsfn4-1.fna&oh=429a9ccda8716f7f89e66727f537aa9a&oe=5F40123A);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 700px 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  margin-top: 15px;
+}
+.date {
+  background: rgb(58, 115, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 115, 180, 1) 0%,
+    rgba(29, 183, 253, 1) 79%,
+    rgba(69, 218, 252, 0) 100%
+  );
+
+  padding: 0px 35px 0px 70px;
+}
+.pag {
+  background: rgb(58, 115, 180);
+  background: linear-gradient(
+    274deg,
+    rgba(58, 115, 180, 1) 0%,
+    rgba(29, 183, 253, 0.8422273781902552) 79%,
+    rgba(69, 218, 252, 0) 100%
+  );
+  padding: 0px 35px 0px 35px;
+}
+.center {
+  height: 200px;
+  background-image: url(https://github.com/eduhardoy/vibe/blob/master/images/logo.png?raw=true);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+}
+.center-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h3 {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  text-shadow: black 3px 3px;
+}
+section h3::after {
+  content: "YCEE";
+  position: absolute;
+  bottom: -255%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: yellow;
+  font-size: 100px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px;
+}
+.news-right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-size: 25px;
+}
+.right {
+  margin-top: 15px;
+  text-align: end;
+}
+.color-purple {
+  color: #f7fb48;
+  text-shadow: 2px 2px black;
+}
+.color-white {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.left-father {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 25px;
+}
+.left {
+  justify-content: flex-end;
+  color: #f7fb48;
+  text-shadow: 2px 2px black;
+}
+.left span {
+  font-size: 3em;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 15px 10px;
+}
